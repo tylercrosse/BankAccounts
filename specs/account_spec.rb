@@ -169,3 +169,5 @@ xdescribe "Wave 2" do
     end
   end
 end
+
+Minitest::Reporters.use! [Minitest::Reporters::DefaultReporter.new(:color => true)]
